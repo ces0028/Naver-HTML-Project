@@ -1,0 +1,351 @@
+.full_screen {
+    width: 1300px;
+    margin: 5px auto;
+    padding: 5px;
+    border: 1px solid gray;    
+}
+h1, .green {
+    color: rgb(45, 180, 0);
+}
+h1, h5, h6 {
+    margin: 0px;
+}
+h4 {
+    margin: 5px;
+}
+.head {
+    width: 80%;
+    height: 70px;
+    margin: 0;
+    display: flex;
+    justify-content: baseline;
+    border: 1px solid gray;
+}
+.icon, .title, .search {
+    height: 60px;
+    display: flex;
+    margin: auto 5px;
+    justify-content: center;
+    align-items: center;
+}
+.search {
+    flex-grow: 1;
+    height: 50px;
+    margin-left: 15px;
+    border: 1px solid gray;
+}
+.menu1 {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.menu1>h5 {
+    margin: 5px;
+}
+#green {
+    color: rgb(45, 180, 0);
+    text-decoration: none;
+}
+.fine_dust {
+    margin-left: 280px;
+}
+.fine_dust>img {
+    margin: auto 0;
+}
+hr {
+    border: 100% solid gray;
+}
+.body {
+    border: 1px solid gray;
+    height: 3690px;
+    padding: 5px;
+    margin: 5px;
+    display: flex;
+    justify-content: space-around;
+}
+.left {
+    float: left;
+    border: 1px solid gray;
+    width: 870px;
+    padding: 5px;
+}
+.right {
+    float: right;
+    margin-right: 5px;
+    border: 1px solid gray;
+    width: 370px;
+    padding: 5px;
+}
+.ad {
+    display: flex;
+    border: 1px solid gray;
+}
+.ad>img {
+    width: 100%;
+    height: auto;
+}
+.news_bar {
+    margin-top: 7px;
+    display: flex;
+    padding-left: 7px;
+    border: 1px solid gray;
+}
+.bar1 {
+    height: 50px;
+    font-size: 0.8rem;
+    line-height: 50px;
+    background-color: rgb(247, 249, 250);
+}
+.bar1>span {
+    font-size: 0.9rem;
+    font-weight: bolder;
+}
+.bar1>img {
+    width: auto;
+    height: 50px;
+    margin-left: 150px;
+}
+.bar2 {
+    padding: 5px;
+    width: 99%;
+    flex-wrap: wrap;
+}
+.bar2>h4 {
+    width: 100%;
+}
+.bar2 td {
+    border: 1px solid lightgray;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.today_interest, .today_music, .vibe_magazine {
+    margin-top: 7px;
+    padding: 5px;
+    border: 1px solid gray;
+}
+.menu_bar, .entertainment_bar {
+    width: 99%;
+    margin: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+.menu2 {
+    width: 12.5%;
+    height: 50px;
+    display: inline-block;
+    border: 1px solid lightgray;
+    margin-top: 15px;
+    text-align: center;
+    line-height: 50px;
+}
+.menu_bar>#select1 {
+    background-color: rgb(230, 93, 160);
+    color: white;
+}
+.entertainment_video1 {
+    margin: 15px auto;
+    width: 99%;
+    height: 300px;
+}
+.entertainment_bar {
+    border: 1px solid lightgray;
+    background-color: rgb(247, 249, 250);
+}
+.menu3 {
+    width: 11%;
+    height: 60px;
+    display: inline-block;
+    text-align: center;
+    line-height: 60px;
+}
+.entertainment_bar>#select2 {
+    color: rgb(230, 93, 160);
+}
+.entertainment_video2 {
+    width: 99%;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid lightgray;
+}
+.video {
+    margin: 2px;
+    text-align: center;
+    border: 1px solid lightgray;
+}
+.video>img {
+    width: 275px;
+}
+.music_chart {
+    height: 440px;
+    display: flex;
+    margin: 15px auto 5px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    border: 1px solid lightgray;
+}
+.music {
+    width: 420px;
+    margin: 3px;
+    border: 1px solid lightgray;
+}
+.music>img {
+    width: 420px;
+}
+.entertainment_video3 {
+    margin: 10px auto;
+    padding: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid gray;
+}
+.article {
+    display: inline-block;
+    width: 19.1%;
+    margin-top: 15px;
+    text-align: center;
+}
+.login {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+}
+.login>h5 {
+    width: 95%;
+    height: 50%;
+    background-color: rgb(45, 180, 0);
+    margin: 0 auto;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+.issue {
+    height: 50px;
+    margin: 10px auto;
+    border: 1px solid gray;
+}
+.issue>img {
+    width: auto;
+    height: 50px;
+}
+/* .issue>h5 {
+    text-align: center;
+    line-height: 50px;
+} */
+.ad2 {
+    height: 210px;
+    border: 1px solid gray;
+}
+.ad2>img {
+    width: 100%;
+    height: 210px;
+}
+/* .ad2>h5 {
+    text-align: center;
+    line-height: 210px;
+} */
+.shopping {
+    border: 1px solid gray;
+    margin-top: 15px;
+}
+.brand {
+    background-color: rgb(247, 249, 250);
+}
+.brand, .shopping_recommend, .shopping_news {
+    margin: 3px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.brand>span {
+    width: 16%;
+    height: 30px;
+    flex-grow: 1;
+    text-align: center;
+    line-height: 30px;
+    font-size: 12px;
+}
+.shopping_recommend_item {
+    margin: 5px auto;
+    text-align: center;
+    border: 1px solid lightgray;
+}
+.shopping_recommend_item>img {
+    width: 110px;
+}
+.shopping_news>h4 {
+    width: 100%;
+}
+.shopping_news_item {
+    width: 100%;
+    padding: 3px;
+    margin: 2px;
+    font-size: 13px;
+    border: 1px solid lightgray;
+}
+.shopping_by_category {
+    margin: 5px;
+}
+.shopping_category {
+    justify-self: flex-start;
+    margin: 5px 0px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.category {
+    display: inline-block;
+    font-size: 0.8em;
+    margin: 5px;
+}
+.shopping_category>#select {
+    font-weight: bolder;
+    text-decoration: underline;
+    color: rgb(45, 180, 0);
+}
+.shopping_category_item {
+    display: flex;
+    justify-content: space-evenly;
+}
+.category_item {
+    margin: 3px;
+    border: 1px solid lightgray;
+    text-align: center;
+}
+.ad3 {
+    margin-top: 5px;
+    flex-direction: column;
+}
+.ad3>h5 {
+    margin: 5px;
+}
+.ad3_item {
+    margin: 5px;
+    text-align: center;
+}
+.foot {
+    margin: 5px;
+    background-color: rgb(250, 251, 252);
+}
+.ad4 {
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid gray;
+}
+.ad4_item {
+    text-align: center;
+}
+.ad4_item>img {
+    width: 100%;
+    height: 100%;
+}
+.notice, .create, .naver {
+    text-align: center;
+    line-height: 50px;
+    border: 1px solid gray;
+}
